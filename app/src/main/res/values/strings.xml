@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">sirius</string>
+
+    <string-array name="algorithms">
+        <item>AES/CBC</item>
+        <item>AES/GCM</item>
+        <item>ChaCha20/Poly1305</item>
+        <item>Blowfish/CBC</item>
+        <item>ARC4</item>
+    </string-array>
+</resources>

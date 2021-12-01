@@ -23,7 +23,7 @@
         android:hint="input password"
         tools:ignore="MissingConstraints"
         android:autofillHints="input password"
-        android:inputType="textPassword" />
+        android:inputType="textMultiLine" />
 
     <Spinner
         android:layout_width="match_parent"

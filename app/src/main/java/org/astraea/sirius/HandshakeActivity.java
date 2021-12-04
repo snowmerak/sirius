@@ -26,7 +26,6 @@ import io.paperdb.Paper;
 public class HandshakeActivity extends AppCompatActivity {
     private final String PRIVATEKEY = "PRIVATEKEY", PUBLICKEY = "PUBLICKEY", HANDSHAKE = "HANDSHAKE";
 
-
     private Ec ec;
 
     @Override

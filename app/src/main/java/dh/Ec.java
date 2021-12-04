@@ -30,7 +30,7 @@ public class Ec {
     private PrivateKey privateKey;
     private PublicKey publicKey;
 
-    public Ec() throws NoSuchAlgorithmException, InvalidAlgorithmParameterException, NoSuchProviderException {
+    public Ec() throws NoSuchAlgorithmException, InvalidAlgorithmParameterException {
         ECGenParameterSpec ecParamSpec = new ECGenParameterSpec("secp521r1");
         KeyPairGenerator kpg = KeyPairGenerator.getInstance("EC");
         kpg.initialize(ecParamSpec);

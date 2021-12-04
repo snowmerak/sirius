@@ -22,12 +22,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setTitle("Message capsule");
 
-        try {
-            TinkConfig.register();
-        } catch (GeneralSecurityException e) {
-            e.printStackTrace();
-        }
-
         Button handshakeButton = findViewById(R.id.handshakeButton);
 
         handshakeButton.setOnClickListener((ev) -> {
